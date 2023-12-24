@@ -1,0 +1,27 @@
+[
+    {
+        "adi": "Iphone",
+        "fiyat": "45000",
+        "resim": "resim.jpg"
+    },
+    {
+        "adi": "Iphone2",
+        "fiyat": "46000",
+        "resim": "resim.jpg"
+    },
+    {
+        "adi": "Iphone3",
+        "fiyat": "47000",
+        "resim": "resim.jpg"
+    },
+    {
+        "adi": "Iphone4",
+        "fiyat": "48000",
+        "resim": "resim.jpg"
+    },
+    {
+        "adi": "Iphone5",
+        "fiyat": "49000",
+        "resim": "resim.jpg"
+    }
+]

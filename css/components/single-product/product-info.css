@@ -1,0 +1,75 @@
+.site-main .product-info {
+    width: 50%;
+    padding-left: 15px;
+   
+  }
+.site-main .product-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .site-main .product-review {
+    display: flex;
+    align-items: center;
+
+  }
+  .site-main .product-review ul,
+.site-main .product-review ul li {
+  display: flex;
+}
+
+.site-main .product-review ul i {
+  color: gold;
+  font-size: 12px;
+}
+
+  .site-main .product-price {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+  }
+  
+  .site-main .product-price s {
+    font-size: 16px;
+    color: #dee0ea;
+  }
+  
+  .site-main .product-price strong {
+    font-size: 18px;
+  }
+  
+  .site-main .product-description {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 15px 0;
+  }
+  
+  .site-main .colors .colors-wrapper {
+    display: flex;
+  }
+  
+    
+  .site-main .product-extra-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .site-main .product-extra-buttons a {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .site-main .divider {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dee0ea;
+  }
+  
+  .site-main .product-meta {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    margin-top: 20px;
+    font-size: 13px;
+  }

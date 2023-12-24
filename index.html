@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nyks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body> 
+    <header >
+      <div class="header-row">
+        <div class="container">
+          <div class="header-wrapper">
+            <div class="header-mobile">
+              <i class="bi bi-list" id="btn-menu"></i>
+            </div>
+            <div class="header-left">
+              <a href="#"><strong> NYKS</strong></a>
+            </div>
+            <div class="header-center" id="sidebar">
+              <nav class="navigation">
+                <ul class="menu-list">
+                  <li class="menu-list-item">
+                    <a href="index.html" class="menu-link"
+                      >Anasayfa <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <div class="menu-dropdown-wrapper">
+                      <ul class="menu-dropdown-content">
+                        <li>
+                          <a href="#">Yeni Yıl Hediyesi</a>
+                        </li>
+                        <li>
+                          <a href="#">Çok Satanlar</a>
+                        </li>
+                        <li>
+                          <a href="#">Yeni Gelenler</a>
+                        </li>
+                        <li>
+                          <a href="#">İndirimli Ürünler</a>
+                        </li>
+                        <li>
+                          <a href="#">Hediye Önerileri</a>
+                        </li>
+                        <li>
+                          <a href="#">Parfüm Setleri</a>
+                        </li>
+                        <li>
+                          <a href="#">Online Özel Ürünler</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-list-item megamenu-wrapper">
+                    <a href="parfumler.html" class="menu-link"
+                      >Parfümler <i class="bi bi-chevron-down"></i></a>
+                      <div class="menu-dropdown-wrapper">
+                        <div class="menu-dropdown-megamenu">
+                          <div class="megamenu-links">
+                            <div class="megamenu-products">
+                              <h4 class="megamenu-products-title">
+                                Kadın Parfümleri
+                              </h4>
+                              <ul class="megamenu-menu-list">
+                                <li>
+                                  <a href="#">Edp Parfüm</a>
+                                </li>
+                                <li>
+                                  <a href="#">Edt Parfüm</a>
+                                </li>
+                                <li>
+                                  <a href="#">Deodorant</a>
+                                </li>
+                                <li>
+                                  <a href="#">Saç Parfümü</a>
+                                </li>
+                                <li>
+                                  <a href="#">Pudralı Parfüm</a>
+                                </li>
+                                <li>
+                                  <a href="#">Fresh Parfüm</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="megamenu-products">
+                              <h4 class="megamenu-products-title">
+                                Erkek Parfümleri
+                              </h4>
+                              <ul class="megamenu-menu-list">
+                                <li>
+                                  <a href="#">Edp Parfüm</a>
+                                </li>
+                                <li>
+                                  <a href="#">Edt Parfüm</a>
+                                </li>
+                                <li>
+                                  <a href="#">Deodorant</a>
+                                </li>
+                                <li>
+                                  <a href="#">After Shave</a>
+                                </li>
+                                <li>
+                                  <a href="#">Body Lotion</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="megamenu-products">
+                              <h4 class="megamenu-products-title">
+                                Unisex Parfümler
+                              </h4>
+                              <ul class="megamenu-menu-list">
+                                <li>
+                                  <a href="#">Edp Parfüm</a>
+                                </li>
+                                <li>
+                                  <a href="#">Edt Parfüm</a>
+                                </li>
+                                <li>
+                                  <a href="#">Deodorant</a>
+                                </li>
+                                <li>
+                                  <a href="#">Body Lotion</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="megamenu-single">
+                            <a href="#">
+                              <img src="./img/ysl-libre.jpg" alt="" />
+                            </a>
+                            <h3 class="megamenu-single-title">
+                              Özgürlük çığlığı gibi bir koku
+                            </h3>
+                            <h5 class="megamenu-single-subtitle">
+                              Saint Laurent’in, hayatı kendi kuralları ile
+                              yaşamak isteyen kadınlar için tasarladığı, en yeni
+                              parfümü Libre ile siz de özgürlüğün ateşini
+                              serbest bırakın.
+                            </h5>
+                            <a href="#" class="megamenu-single-btn btn btn-sm"
+                              >Ürün detayı</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  
+                    
+                  <li class="menu-list-item">
+                    <a href="login.html" class="menu-link"
+                      >Giriş Yap </a>       
+                  </li>
+                </ul>
+              </nav>
+              <i class="bi-x-circle" id="close-sidebar"></i>
+
+             </div>
+          
+            <div class="header-right">
+              <div class="header-right-links">
+                <a href="#" class="header-account"></a>
+                <button class="search-button">
+                  <i class="bi bi-search"></i>
+                </button>
+                <a href="#">
+                  <i class="bi bi-person"></i>
+                </a>
+                <div class="header-cart">
+                  <a href="#" class="header-cart-link">
+                    <i class="bi bi-cart3"></i>
+                    <span class="header-cart-count">0</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </header>
+    <!--! modal search -->
+    <div class="modal-search">
+      <div class="modal-wrapper">
+        <h3 class="modal-title">Hadi gel aradığını hızlıca bulalım...</h3>
+       
+        <form class="search-form">
+          <input type="text" placeholder="Ürün, marka ara...">
+          <button>
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="search-results">
+          <div class="search-heading">
+            <h3>SON BAKTIKLARIN</h3>
+          </div>
+          <div class="results">
+            <a href="#" class="result-item">
+              <img src="img/ürünler/ürün1/ysl-libre-edp-flowers-600x900_1.jpg" class="search-thumb" alt="">
+              <div class="search-info">
+                <h4>Yves Saint Laurent Libre</h4>
+                <span class="search-sku">Ürün Kodu : LA69610</span>
+                <span class="search-price">5.450 TL</span>
+              </div>
+            </a>
+            <a href="#" class="result-item">
+              <img src="img/ürünler/ürün2/narciso.jpg" class="search-thumb" alt="">
+              <div class="search-info">
+                <h4>Narciso Rodriguez For Her </h4>
+                <span class="search-sku">Ürün Kodu : RA69710</span>
+                <span class="search-price">5.379 TL</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <i class="bi bi-x-circle"  id="close-search"></i>
+      </div>
+    </div>
+    </div>
+   <!--! modal search -->
+    
+   <!--! slider start   -->
+
+   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/silider/slider1.jpg" alt="First slide ">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/silider/slider2.jpg" alt="Second slide ">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/silider/slider3.jpg" alt="Third slide ">
+      </div>
+    </div>
+  
+    <!--! slider end   -->
+
+    <!-- çok satan ürünler -->
+    <section class="best-selling">
+      <div class="contaner">
+        <div class="section-title">
+          <h2>Çok Satan Markalar</h2>
+          <p>En sevilen markaları şimdi keşfet!</p>
+        </div>
+        <ul class="best-selling-list">
+          <li class="best-selling-item">
+            <a href="#">
+              <img src="img/çok satan ürünler/3614272907690_1_2.jpg" alt="" class="best-selling-img" > <br><br>
+              <span class="best-selling-title">Giorgio Armani</span>
+            </a>
+          </li>
+          <li class="best-selling-item">
+            <a href="#">
+              <img src="img/çok satan ürünler/3346470143234_1.jpg" alt="" class="best-selling-img" > <br><br>
+              <span class="best-selling-title">Guerlain</span>
+            </a>
+          </li>
+          <li class="best-selling-item">
+            <a href="#">
+              <img src="img/çok satan ürünler/3348901664653.jpg" alt="" class="best-selling-img" > <br><br>
+              <span class="best-selling-title">Dior</span>
+            </a>
+          </li>
+          <li class="best-selling-item">
+            <a href="#">
+              <img src="img/çok satan ürünler/8011003872077_1.jpg" alt="" class="best-selling-img" > <br><br>
+              <span class="best-selling-title">Versace</span>
+            </a>
+          </li>
+          <li class="best-selling-item">
+            <a href="#">
+              <img src="img/çok satan ürünler/8411061057193_01.jpg" alt="" class="best-selling-img" > <br><br>
+              <span class="best-selling-title">Carolina Herrera</span>
+            </a>
+          </li>
+        </ul>
+        </div>
+       
+    </section>
+    <!-- çok satan ürünler -->
+
+    <!--! cart effect -->
+    <section class="card-effect">
+      <div class="card">
+        <div class="image-box">
+          <img src="img/si1.jpg" alt="">
+        </div>
+        <div class="text-box">
+          <div class="main"><span>Armani</span></div>
+          <div class="sub"><span>Si Passione</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image-box">
+          <img src="img/noir1.jpg" alt="">
+        </div>
+        <div class="text-box">
+          <div class="main"><span>Bvlgari</span></div>
+          <div class="sub"><span>Jasmin Noir</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image-box">
+          <img src="img/blg.jpg" alt="">
+        </div>
+        <div class="text-box">
+          <div class="main"><span>Bvlgari</span></div>
+          <div class="sub"><span>Omnia</span></div>
+        </div>
+      </div>
+    </section>
+    <!--! cart effect -->
+
+    <!--! products -->
+    <section class="products">
+      <div class="container">
+        <div class="section-title">
+          <h2>Öne çıkan ürünleri keşfet!</h2>
+          <p>İndirimler Başladı! Keşfet!</p>
+        </div>
+        <div class="product-wrapper">
+          <ul class="product-list">
+            <li class="product-item">
+              <div class="product-image">
+                <a href="#">
+                  <img src="img/ürünler/ürün1/ysl-libre-600x600.jpg" alt="" class="img1">
+                  <img src="img/ürünler/ürün1/ysl-libre-edp-flowers-600x900_1.jpg" alt="" class="img2">
+                </a>
+              </div>
+              <div class="product-info">
+                <a href="$" class="product-title">Yves Saint Laurent Libre EDP </a>
+                <ul class="product-star">
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                </ul>
+                <div class="product-prices">
+                  <strong class="new-price">3.815 TL</strong>
+                  <span class="old-price">5.450 TL</span>
+                </div>
+                <span class="product-discount">-30%</span>
+                <div class="product-links">
+                  <button>
+                    <i class="bi bi-cart-fill"></i>
+                  </button>
+                  <button>
+                
+                  <a href="#">
+                    <i class="bi bi-share-fill"></i> 
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="product-item">
+              <div class="product-image">
+                <a href="#">
+                  <img src="img/ürünler/ürün2/narciso.jpg" alt="" class="img1">
+                  <img src="img/ürünler/ürün2/narciso_2.jpg" alt="" class="img2">
+                </a>
+              </div>
+              <div class="product-info">
+                <a href="$" class="product-title">Narciso Rodriguez For Her EDP</a>
+                <ul class="product-star">
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                </ul>
+                <div class="product-prices">
+                  <strong class="new-price">3.765 TL</strong>
+                  <span class="old-price">5.379 TL</span>
+                </div>
+                <span class="product-discount">-30%</span>
+                <div class="product-links">
+                  <button >
+                    <i class="bi bi-cart-fill"></i>
+                  </button>
+                  <a href="#">
+                    <i class="bi bi-share-fill"></i> 
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="product-item">
+              <div class="product-image">
+                <a href="#">
+                  <img src="img/ürünler/ürün4/ysl-1.jpg" alt="" class="img1">
+                  <img src="img/ürünler/ürün4/ysl-2.jpg" alt="" class="img2">
+                </a>
+              </div>
+              <div class="product-info">
+                <a href="$" class="product-title">Yves Saint Laurent Myslf EDP</a>
+                <ul class="product-star">
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-half"></i>
+                  </li>
+                </ul>
+                <div class="product-prices">
+                  <strong class="new-price">3.395 TL</strong>
+                  <span class="old-price">4.850 TL</span>
+                </div>
+                <span class="product-discount">-30%</span>
+                <div class="product-links">
+                  <button>
+                    <i class="bi bi-cart-fill"></i>
+                  </button>
+                  <a href="#">
+                    <i class="bi bi-share-fill"></i> 
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="product-item">
+              <div class="product-image">
+                <a href="#">
+                  <img src="img/ürünler/ürün3/byf_2.jpg" alt="" class="img1">
+                  <img src="img/ürünler/ürün3/byf_3.jpg" alt="" class="img2">
+                </a>
+              </div>
+              <div class="product-info">
+                <a href="$" class="product-title">Burberry Her EDP</a>
+                <ul class="product-star">
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-half"></i>
+                  </li>
+                </ul>
+                <div class="product-prices">
+                  <strong class="new-price">2.839 TL</strong>
+                  <span class="old-price">4.056 TL</span>
+                </div>
+                <span class="product-discount">-30%</span>
+                <div class="product-links">
+                  <button>
+                    <i class="bi bi-cart-fill"></i>
+                  </button>
+                  <a href="#">
+                    <i class="bi bi-share-fill"></i> 
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+     <!--! products -->
+
+     <!--! products -->
+    <section class="products">
+      <div class="container">
+        <div class="section-title">
+          <h2>Hediye önerilerini keşfet!</h2>
+          <p>İndirimler Başladı! Keşfet!</p>
+        </div>
+        <div class="product-wrapper">
+          <ul class="product-list">
+            <li class="product-item">
+              <div class="product-image">
+                <a href="#">
+                  <img src="img/ürünler/ürün5/tom1.jpg" alt="" class="img1">
+                  <img src="img/ürünler/ürün5/tom2.jpg" alt="" class="img2">
+                </a>
+              </div>
+              <div class="product-info">
+                <a href="$" class="product-title">Tom Ford Lost Cherry EDP </a>
+                <ul class="product-star">
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                </ul>
+                <div class="product-prices">
+                  <strong class="new-price">5.719 TL</strong>
+                  <span class="old-price">8.170 TL</span>
+                </div>
+                <span class="product-discount">-30%</span>
+                <div class="product-links">
+                  <button>
+                    <i class="bi bi-cart-fill"></i>
+                  </button>
+                  <a href="#">
+                    <i class="bi bi-share-fill"></i> 
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="product-item">
+              <div class="product-image">
+                <a href="#">
+                  <img src="img/ürünler/ürün6/dg1.jpg" alt="" class="img1">
+                  <img src="img/ürünler/ürün6/dg2.jpg" alt="" class="img2">
+                </a>
+              </div>
+              <div class="product-info">
+                <a href="$" class="product-title">Dolce&Gabbana Devotion EDP</a>
+                <ul class="product-star">
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                </ul>
+                <div class="product-prices">
+                  <strong class="new-price">3.752 TL</strong>
+                  <span class="old-price">5.360 TL</span>
+                </div>
+                <span class="product-discount">-30%</span>
+                <div class="product-links">
+                  <button>
+                    <i class="bi bi-cart-fill"></i>
+                  </button>
+                  <a href="#">
+                    <i class="bi bi-share-fill"></i> 
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="product-item">
+              <div class="product-image">
+                <a href="#">
+                  <img src="img/ürünler/ürün7/ar1.jpg" alt="" class="img1">
+                  <img src="img/ürünler/ürün7/ar2.jpg" alt="" class="img2">
+                </a>
+              </div>
+              <div class="product-info">
+                <a href="$" class="product-title">Giorgio Armani Code Le EDP</a>
+                <ul class="product-star">
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-half"></i>
+                  </li>
+                </ul>
+                <div class="product-prices">
+                  <strong class="new-price">4.193 TL</strong>
+                  <span class="old-price">5.990 TL</span>
+                </div>
+                <span class="product-discount">-30%</span>
+                <div class="product-links">
+                  <button>
+                    <i class="bi bi-cart-fill"></i>
+                  </button>
+                  <a href="#">
+                    <i class="bi bi-share-fill"></i> 
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="product-item">
+              <div class="product-image">
+                <a href="#">
+                  <img src="img/ürünler/ürün8/cl1.jpg" alt="" class="img1">
+                  <img src="img/ürünler/ürün8/cl2.jpg" alt="" class="img2">
+                </a>
+              </div>
+              <div class="product-info">
+                <a href="$" class="product-title">Calvin Klein My Euphoria EDP</a>
+                <ul class="product-star">
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-half"></i>
+                  </li>
+                </ul>
+                <div class="product-prices">
+                  <strong class="new-price">2.506 TL</strong>
+                  <span class="old-price">3.580 TL</span>
+                </div>
+                <span class="product-discount">-30%</span>
+                <div class="product-links">
+                  <button>
+                    <i class="bi bi-cart-fill"></i>
+                  </button>
+                  <a href="#">
+                    <i class="bi bi-share-fill"></i> 
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+     <!--! products -->
+
+     <!--! blogs -->
+     <section class="blogs">
+      <div class="container">
+        <div class="section-title">
+          <h2>Nyks Blog</h2>
+          <p>Son paylaşılan blog yazıları..</p>
+        </div>
+        <ul class="blog-list">
+          <li class="blog-item">
+            <a href="#" class="blog-image">
+              <img src="img/blog/dior-sauvage.jpg" alt="">
+            </a>
+            <div class="blog-info">
+              <div class="blog-info-top">
+                <span>5 Kasım 2023 </span>
+    
+                
+              </div>
+              <div class="blog-info-center">
+                <a href="#">"Zaman ve modayı aşan bir adamın imajı gibi."</a>
+              </div>
+              <div class="blog-info-bottom">
+                <a href="#">Devamını oku</a>
+              </div>
+            </div>
+          </li>
+          <li class="blog-item">
+            <a href="#" class="blog-image">
+              <img src="img/blog/chanel.jpg" alt="">
+            </a>
+            <div class="blog-info">
+              <div class="blog-info-top">
+                <span>4 Ekim 2023 </span>
+              </div>
+              <div class="blog-info-center">
+                <a href="#">"Kendinden emin, özgür kadının kokusu."</a>
+              </div>
+              <div class="blog-info-bottom">
+                <a href="#">Devamını oku</a>
+              </div>
+            </div>
+          </li>
+          <li class="blog-item">
+            <a href="#" class="blog-image">
+              <img src="img/blog/idole-intense_600x600.jpg" alt="">
+            </a>
+            <div class="blog-info">
+              <div class="blog-info-top">
+                <span>3 Eylül 2023 </span>
+              </div>
+              <div class="blog-info-center">
+                <a href="#">"İçten gelen, gerçek bir ışıltı saçıyor."</a>
+              </div>
+              <div class="blog-info-bottom">
+                <a href="#">Devamını oku</a>
+              </div>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </section>
+     <!--! blogs -->
+     
+      <!--! campaign sinle start  -->
+  <section class="campaign-single">
+    <div class="container">
+      <div class="campaign-wrapper">
+        <h2>Yılın son indirimi!</h2>
+        <strong>% 30</strong>
+        <span></span>
+        <a href="#" class="btn btn-lg">
+          Alışverişe Başla
+          <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!--! campaign sinle end  -->
+
+  <!--! policy start  -->
+  <section class="policy">
+    <div class="container">
+      <ul class="policy-list">
+        <li class="policy-item">
+          <i class="bi bi-truck"></i>
+          <div class="policy-texts">
+            <strong>ÜCRETSİZ TESLİMAT</strong>
+            <span>Kargo ücreti ödeme</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-headset"></i>
+          <div class="policy-texts">
+            <strong>7/24 DESTEK</strong>
+            <span>24 saat çevrimiçi destek</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-arrow-clockwise"></i>
+          <div class="policy-texts">
+            <strong> 30 GÜN İADE</strong>
+            <span>
+              30 gün içinde iade edebilirsiniz</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-credit-card"></i>
+          <div class="policy-texts">
+            <strong> ÖDEME YÖNTEMİ</strong>
+            <span>Güvenli ödeme</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--! policy end  -->
+  <!--! footer start  -->
+  <footer class="footer">
+    <div class="subscribe-row">
+      <div class="container">
+        <div class="footer-row-wrapper">
+          <div class="footer-subscribe-wrapper">
+            <div class="footer-subscribe">
+              <div class="footer-subscribe-top">
+                <h3 class="subscribe-title">İndirimler ve daha fazlası hakkında bilgi almak için e-postalarımızı alın.</h3>
+                <p class="subscribe-desc">Abone ol ve ilk hediye puanını kazan!</p>
+              </div>
+              <div class="footer-subscribe-bottom">
+                <form>
+                  <input type="text" placeholder="E-mail adresini giriniz">
+                  <button>Abone ol</button>
+                </form>
+                <p class="privacy-text">
+                  Abone olarak şunları kabul etmiş olursunuz: <a href="#">Şartlar ve Gizlilik ve Çerez Politikası.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-contact-wrapper">
+            <div class="footer-contact-top">
+              <h3 class="contact-title">
+                Yardıma mı ihtiyacınız var? <br>
+                (+90) 232 235 35 35
+              </h3>
+              <p class="contact-desc">9:00 - 19:00 saatleri arasında arayabilirsiniz</p>
+            </div>
+            <div class="footer-contact-bottom">
+              <div class="download-app">
+                <a href="#">
+                  <img src="img/footer/app-store.png" alt="">
+                </a>
+                <a href="#">
+                  <img src="img/footer/google-play.png" alt="">
+                </a>            
+              </div>
+              <div class="container">
+                <div class="iconsContainer">
+                 <div class="icon"> <i class="bi bi-instagram"></i></div> 
+                 <div class="icon"> <i class="bi bi-facebook"></i></div> 
+                 <div class="icon"> <i class="bi bi-twitter-x"></i></div> 
+                  </div>
+
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="widgets-row">
+      <div class="container">
+        <div class="footer-widgets">
+          <div class="brand-info">
+            <div class="footer-logo">
+              <a href="#" class="logo"><strong> NYKS</strong></a>
+            </div>
+            <div class="footer-desc">
+              <p> 1990 yılından beri, güzelligin nabzını tutan NYKS, 100'den fazla marka ve 1000 ürün ile <br>müsterileirine essiz bir deneyim sunuyor. </p>
+            </div>
+            <div class="footer-contact">
+              <p>
+                <a href="tel:555 555 55 55">(+850) 998 59 99</a> – <a
+                  href="mailto:info@example.com">nyks@example.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="widget-nav-menu">
+            <h4>Kurumsal Bilgiler</h4>
+            <ul class="menu-list">
+              <li>
+                <a href="#">Hakkımızda</a>
+              </li>
+              <li>
+                <a href="#">Satış Sözleşmesi</a>
+              </li>
+              <li>
+                <a href="#">İade Koşulları</a>
+              </li>
+              <li>
+                <a href="#">Verilerin Korunması</a>
+              </li>
+              <li>
+                <a href="#">Sık Sorulan Sorular</a>
+              </li>
+            </ul>
+          </div>
+          <div class="widget-nav-menu">
+            <h4>Avantajlar</h4>
+            <ul class="menu-list">
+              <li>
+                <a href="#">Güvenli Alışveriş</a>
+              </li>
+              <li>
+                <a href="#">Ücretsiz Kargo!</a>
+              </li>
+              <li>
+                <a href="#">Nyks Para, Hediyeler</a>
+              </li>
+              <li>
+                <a href="#"> Aktif Kampanyalar</a>
+              </li>
+              <li>
+                <a href="#"> Kampanyalar ve İndirimler</a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!--! footer end  -->
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="js/products.js"></script>
+ <script src="js/index.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+ 
+</body>
+</html>
